@@ -1,30 +1,26 @@
-# Alvin Henry Priel — Portfolio
+# Alvin Henry Priel - Portfolio
 
-Replace placeholders with real content. Nothing on the site is faked.
+Live: https://brielcum-pixel.github.io/prieltriel/
 
-## 1. Photos (required)
-Add your real photos:
-- `assets/alvin-portrait.jpg` — hero, vertical 4:5, min 900x1125px
-- `assets/alvin-portrait-2.jpg` — about section (optional, same folder)
+## Content rules
 
-The site shows a clean monogram placeholder until you add them. No stock photos.
+Nothing on the site is faked. No invented clients, results, statistics, testimonials, or project details.
 
-## 2. Projects
-In `index.html`, copy a `.work-card` block. Replace:
-- name, category, short description
-- image in `assets/` (4:3, optimized JPG/WebP)
-- case modal data: Challenge / Strategy / What I Built / Result (only if real)
+## Replace / update
 
-Do not add fake clients or results.
+- `assets/alvin-portrait.jpg` - hero + about portrait (exact photo)
+- `assets/site-background.jpg` - official full-site background (exact file)
+- Work visuals in `assets/work-*.jpg` - real project images only
+- `index.html` work cards + `script.js` CASES - honest case wording, results only when verified
+- `#testimonials` - real approved quotes only
+- Email in `index.html` + `script.js` (currently hello@alvinhenrypriel.com) and social links
 
-## 3. Testimonials
-In `#testimonials`, paste only real approved quotes:
-```html
-<blockquote class="quote"><p>"Real quote…"</p><cite>Name — Business / Role</cite></blockquote>
+## Deploy
+
+```
+git add -A
+git commit -m "Describe the change"
+git push origin main
 ```
 
-## 4. Contact
-Update email in `index.html` + `script.js` (currently hello@alvinhenrypriel.com) and social links.
-
-## Run
-Open `index.html` directly, or `npx serve .` for local preview.
+Live in about a minute via GitHub Pages (branch `main`, root).
