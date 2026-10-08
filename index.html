@@ -3,456 +3,501 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Alvin Henry Priel · Websites, SEO, Automation</title>
-<meta name="description" content="Alvin Henry Priel is a Digital Growth Partner and Systems Builder. Websites, SEO, and automation built as one connected system." />
-<meta property="og:title" content="Alvin Henry Priel · Digital Growth Partner" />
-<meta property="og:description" content="Building the digital foundation behind business growth. Websites, SEO, automation." />
+<title>Dave Mark · Tattoo Artist · Custom Tattoos</title>
+<meta name="description" content="Dave Mark is a tattoo artist focused on custom pieces, detailed black and grey work, fine line tattoos, and meaningful designs created for each client. View the work and request a consultation." />
+<link rel="canonical" href="./index.html" />
+<meta property="og:title" content="Dave Mark · Tattoo Artist · Custom Tattoos" />
+<meta property="og:description" content="Custom black and grey, fine line, and meaningful tattoos. Each piece designed for the person wearing it. Request a consultation." />
 <meta property="og:type" content="website" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" href="assets/logo-mark-dark.svg" type="image/svg+xml">
+<meta property="og:image" content="assets/tattoos/saint-shoulder.jpg" />
+<meta name="theme-color" content="#0A0A0A" />
+<link rel="icon" href="assets/dm-mark.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Dave Mark Tattoo Artist",
+  "description": "Custom tattoos, black and grey work, fine line tattoos, and meaningful designs.",
+  "priceRange": "Contact for consultation"
+}
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="site-header" id="top">
   <div class="wrap header-inner">
-    <a href="#home" class="brand" aria-label="Alvin Henry Priel home">
-      <img class="brand-mark-img" src="assets/logo-mark-dark.svg" alt="" width="34" height="24" />
-      <span class="brand-name">Alvin Henry Priel</span>
+    <a href="#home" class="brand" aria-label="Dave Mark home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" role="presentation">
+          <rect x="1" y="1" width="32" height="32" stroke="#EDE8E0" stroke-width="1.5"/>
+          <path d="M8 11 L10.5 16 L13 11.5 L17 18 L21 11.5 L23.5 16 L26 11" stroke="#EDE8E0" stroke-width="1.4" stroke-linejoin="miter"/>
+          <text x="17" y="27.5" text-anchor="middle" font-family="Cinzel, serif" font-size="9.5" letter-spacing="1.5" fill="#EDE8E0">DM</text>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">DAVE MARK</span>
+        <span class="brand-sub">TATTOO ARTIST</span>
+      </span>
     </a>
     <nav class="desktop-nav" aria-label="Primary">
-      <a href="#home" class="nav-link is-active">Home</a>
       <a href="#work" class="nav-link">Work</a>
-      <a href="#services" class="nav-link">Services</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#artist" class="nav-link">Artist</a>
+      <a href="#styles" class="nav-link">Styles</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#process" class="nav-link">Process</a>
     </nav>
     <div class="header-actions">
-      <a href="#contact" class="btn btn-dark btn-sm">Book a Project</a>
+      <a href="#consultation" class="btn btn-light btn-sm">Request a Consultation</a>
       <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
-        <span></span><span></span>
+        <span></span><span></span><span></span>
       </button>
     </div>
   </div>
   <div class="mobile-menu" id="mobileMenu" hidden>
     <nav aria-label="Mobile">
-      <a href="#home">Home</a>
       <a href="#work">Work</a>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <a href="#contact" class="btn btn-dark">Book a Project</a>
+      <a href="#artist">Artist</a>
+      <a href="#styles">Styles</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#consultation" class="btn btn-light">Request a Consultation</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
+
 <!-- HERO -->
-<section class="hero wrap" id="home">
-  <div class="hero-grid">
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
     <div class="hero-copy">
-      <h1 class="hero-name">Alvin Henry<br />Priel</h1>
-      <p class="hero-role">Digital Growth Partner · Systems Builder</p>
-      <p class="hero-statement">Building the digital foundation behind business growth.</p>
-      <p class="hero-sub">I help businesses look credible, get found, and run smoothly. Websites, search, and automation built as one connected system.</p>
+      <p class="hero-eyebrow">Custom Tattoos · Black and Grey · Fine Line</p>
+      <h1 id="hero-title" class="hero-title">
+        <span class="hero-name">DAVE MARK</span>
+        <span class="hero-role">TATTOO ARTIST</span>
+      </h1>
+      <p class="hero-statement">Custom pieces designed around your idea, your meaning, and your placement. No flash off the wall unless you want it. Each design is built for one person.</p>
       <div class="hero-ctas">
-        <a href="#contact" class="btn btn-accent">Book a Project</a>
-        <a href="#work" class="btn btn-ghost">View My Work</a>
+        <a href="#consultation" class="btn btn-light">Request a Consultation</a>
+        <a href="#portfolio" class="btn btn-outline">View the Work</a>
       </div>
-      <div class="hero-meta">
-        <div class="meta-item"><strong>One accountable partner</strong><span>Strategy through launch</span></div>
-        <div class="meta-item"><strong>Three connected disciplines</strong><span>Websites, SEO, automation</span></div>
-      </div>
+      <dl class="hero-facts">
+        <div>
+          <dt>Focus</dt>
+          <dd>Custom, black and grey, fine line</dd>
+        </div>
+        <div>
+          <dt>Approach</dt>
+          <dd>Consultation first, design second</dd>
+        </div>
+        <div>
+          <dt>Next step</dt>
+          <dd>Share your idea, discuss the concept</dd>
+        </div>
+      </dl>
     </div>
     <div class="hero-visual">
-      <figure class="portrait-frame">
-        <img src="assets/alvin-portrait.jpg" alt="Portrait of Alvin Henry Priel" fetchpriority="high" onerror="this.classList.add('img-missing');this.removeAttribute('src')" />
-        <div class="portrait-fallback" aria-hidden="true">
-          <span class="pf-initials">AHP</span>
-          <span class="pf-note">Portrait: <code>assets/alvin-portrait.jpg</code></span>
-        </div>
-        <figcaption class="portrait-caption">
-          <span class="dot"></span> Alvin Henry Priel
+      <figure class="hero-frame">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/saint-shoulder.jpg"
+             alt="Black and grey tattoo of an armored archangel with spear on an upper arm, with fine geometric linework behind the figure"
+             fetchpriority="high" decoding="async"
+             data-hero-img />
+        <figcaption>
+          <span class="fig-style">Black and Grey · Custom</span>
+          <span class="fig-place">Upper arm piece</span>
         </figcaption>
       </figure>
+      <p class="hero-note">Real work by Dave Mark. Detail is preserved, nothing staged.</p>
     </div>
   </div>
-  <div class="hero-rule" aria-hidden="true">
-    <span>Websites</span><i>·</i><span>SEO</span><i>·</i><span>Automation</span>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="section wrap" id="services">
-  <p class="kicker">01 / Services</p>
-  <h2 class="section-title">Three disciplines, one digital system.</h2>
-  <p class="section-lead">Most businesses buy these separately and hope they connect. I build them to connect from the start, so each part makes the others stronger.</p>
-
-  <div class="system-flow">
-    <p class="flow-label">How the system flows</p>
-    <p class="flow-track">Website <span class="sep">→</span> Visibility <span class="sep">→</span> Lead <span class="sep">→</span> Follow-up <span class="sep">→</span> Conversion</p>
-    <p class="flow-note">Understand, build, connect, improve. Every engagement follows that loop.</p>
-  </div>
-
-  <div class="service-rows">
-    <article class="service-row reveal">
-      <span class="service-no">01</span>
-      <div>
-        <h3>Websites</h3>
-        <p class="lede">Websites built to make your business look professional and turn attention into action.</p>
-        <ul class="cap-list">
-          <li>Professional custom design</li>
-          <li>Responsive experiences</li>
-          <li>Fast performance</li>
-          <li>Strong UX</li>
-          <li>Clear conversion paths</li>
-          <li>SEO-ready structure</li>
-        </ul>
-      </div>
-    </article>
-    <article class="service-row reveal">
-      <span class="service-no">02</span>
-      <div>
-        <h3>SEO</h3>
-        <p class="lede">SEO built to improve your visibility, attract the right people, and turn search traffic into real opportunities.</p>
-        <ul class="cap-list">
-          <li>Technical SEO</li>
-          <li>On-page optimization</li>
-          <li>Search visibility</li>
-          <li>Keyword structure</li>
-          <li>Local SEO where relevant</li>
-          <li>Continuous optimization</li>
-        </ul>
-      </div>
-    </article>
-    <article class="service-row reveal">
-      <span class="service-no">03</span>
-      <div>
-        <h3>Automation</h3>
-        <p class="lede">Smart automation built to capture leads, respond faster, and keep your business moving without the repetitive manual work.</p>
-        <ul class="cap-list">
-          <li>Lead capture</li>
-          <li>AI voice and calling agents</li>
-          <li>Automated follow-ups</li>
-          <li>Appointment booking</li>
-          <li>CRM and workflow automation</li>
-          <li>Website integrations</li>
-          <li>Lead qualification</li>
-        </ul>
-      </div>
-    </article>
-  </div>
-</section>
-
-<!-- WHAT I BUILD -->
-<section class="section section-band" id="system">
-  <div class="wrap narrow">
-    <p class="kicker">02 / What I build</p>
-    <h2 class="section-title">Digital systems built around how your business actually works.</h2>
-    <p class="section-lead">A website alone is a brochure. Rankings alone are traffic. Follow-up alone is noise. I connect the three into one practical loop: your site earns trust, search brings the right visitors, and automation answers every lead in minutes, books the call, and keeps the pipeline moving while you do the work.</p>
-    <p class="section-lead">No isolated deliverables. One system, designed around your real process.</p>
+  <div class="wrap hero-rule" aria-hidden="true">
+    <span>Custom Pieces</span><span class="rule-sep">/</span><span>Black and Grey</span><span class="rule-sep">/</span><span>Fine Line</span><span class="rule-sep">/</span><span>Meaningful Designs</span>
   </div>
 </section>
 
 <!-- SELECTED WORK -->
-<section class="section wrap" id="work">
-  <div class="work-head">
+<section class="section wrap" id="work" aria-labelledby="work-title">
+  <div class="section-head">
     <div>
-      <p class="kicker">03 / Selected work</p>
-      <h2 class="section-title">Real work, shown honestly.</h2>
-      <p class="section-lead">What I can build, in evidence. Open any piece for the thinking behind it.</p>
+      <p class="kicker">01 · Selected Work</p>
+      <h2 id="work-title" class="section-title">Strong pieces, shown large.</h2>
+      <p class="section-lead">A short edit of recent custom work. The full archive sits in the portfolio below, built to grow as new pieces heal and are photographed.</p>
     </div>
-    <a href="#contact" class="btn btn-dark btn-sm">Book a Project</a>
+    <a href="#portfolio" class="text-link">Open full portfolio</a>
   </div>
 
-  <article class="work-feature reveal">
-    <img src="assets/work-website-gazu.jpg" alt="Fashion e-commerce website design with bold hero typography and product sections" loading="lazy" decoding="async" />
-    <div class="work-feature-body">
-      <div>
-        <span class="work-cat">Website</span>
-        <h3>Fashion e-commerce storefront</h3>
-        <p>A full storefront design with an editorial hero, clear category paths for men, women, and kids, plus a conversion-focused product grid with trust signals.</p>
+  <div class="editorial-feature">
+    <figure class="ed-large">
+      <div class="skeleton" aria-hidden="true"></div>
+      <img src="assets/tattoos/back-piece.jpg" alt="Full back tattoo with two angels, an all seeing eye, and architectural geometry in black and grey" loading="lazy" decoding="async" />
+      <figcaption><span>Full back composition · Black and grey</span><span>Large scale custom work</span></figcaption>
+    </figure>
+    <div class="ed-side">
+      <figure class="ed-small">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/angel-sleeve.webp" alt="Black and grey angel portrait with lettering reading Rise Again on a full sleeve" loading="lazy" decoding="async" />
+        <figcaption><span>Sleeve detail · Portrait and script</span></figcaption>
+      </figure>
+      <figure class="ed-small">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/bat-shoulder.jpg" alt="Fine line black and grey bat hanging from a scythe with web detailing on an upper arm" loading="lazy" decoding="async" />
+        <figcaption><span>Fine line black and grey · Upper arm</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ARTIST -->
+<section class="section section-band" id="artist" aria-labelledby="artist-title">
+  <div class="wrap artist-grid">
+    <div class="artist-type">
+      <p class="kicker">02 · The Artist</p>
+      <h2 id="artist-title" class="section-title">Dave Mark builds the tattoo around the person.</h2>
+      <blockquote class="artist-quote">Bring the idea, the meaning, or even a rough direction. Dave shapes it into a tattoo that fits your body and holds over time.</blockquote>
+    </div>
+    <div class="artist-copy">
+      <p>Dave Mark is a tattoo artist focused on custom work. His core is detailed black and grey, fine line precision, and designs that carry personal meaning.</p>
+      <p>Every piece starts with a conversation. You talk through what the tattoo represents, the style you lean toward, where it will sit, and the size you have in mind. Dave then develops a custom concept from that direction. Nothing generic, nothing rushed.</p>
+      <div class="artist-list" role="list">
+        <div role="listitem"><span class="al-no">A</span><p><strong>Idea first.</strong> Your story and references set the direction.</p></div>
+        <div role="listitem"><span class="al-no">B</span><p><strong>Placement led.</strong> Design follows the flow of the arm, leg, back, or chest.</p></div>
+        <div role="listitem"><span class="al-no">C</span><p><strong>Built to last.</strong> Line weight, contrast, and scale are chosen so the piece heals clean.</p></div>
       </div>
-      <div>
-        <p><strong>Challenge.</strong> Make a large catalog feel curated and easy to shop on any device.</p>
-        <p style="margin-top:10px"><strong>What I built.</strong> Hero composition, category journeys, campaign band, and a structured product grid.</p>
-        <p style="margin-top:14px"><button class="text-btn" data-open-case="gazu">Open case study</button></p>
+      <p class="placeholder-note">Artist portrait to be added here when supplied. Recommended: natural light, plain background, 800 by 1000 px minimum.</p>
+      <div class="inline-ctas">
+        <a href="#consultation" class="btn btn-dark">Discuss Your Idea</a>
+        <a href="#process" class="text-link">How the custom process works</a>
       </div>
     </div>
-  </article>
+  </div>
+</section>
 
-  <div class="work-duo">
-    <article class="work-card reveal">
-      <img src="assets/work-seo-visibility.jpg" alt="SEO growth chart viewed through a magnifying glass" loading="lazy" decoding="async" />
-      <div class="work-card-body">
-        <span class="work-cat">SEO</span>
-        <h3>Search visibility work</h3>
-        <p>Technical and on-page SEO aimed at lifting rankings and turning search traffic into enquiries.</p>
-        <p><button class="text-btn" data-open-case="seo">Open case study</button></p>
+<!-- STYLES -->
+<section class="section wrap" id="styles" aria-labelledby="styles-title">
+  <p class="kicker">03 · Styles</p>
+  <h2 id="styles-title" class="section-title">Four specialties, one standard.</h2>
+  <p class="section-lead">Each style below is shown with real work. If your idea sits between styles, mention it in the consultation. That is where custom work starts.</p>
+
+  <div class="style-rows">
+    <article class="style-row">
+      <div class="style-text">
+        <p class="style-no">01</p>
+        <h3>Black and Grey</h3>
+        <p class="style-desc">Layered shading, smooth transitions, and strong contrast. Suited to portrait work, religious imagery, large scale sleeves, and back pieces that need depth without color.</p>
+        <p class="style-meta">Best for: sleeves, back pieces, portraits, dramatic shading</p>
+        <a href="#portfolio" class="text-link" data-filter-link="black-grey">See black and grey work</a>
       </div>
+      <figure class="style-fig">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/saint-forearm.jpg" alt="Black and grey Saint Michael with shield and staff standing over a figure, with an owl above, on a forearm" loading="lazy" decoding="async" />
+        <figcaption>Forearm piece · Saint figure with fine shading</figcaption>
+      </figure>
     </article>
-    <article class="work-card reveal">
-      <img class="fit-tall" src="assets/work-automation-flow.jpg" alt="Lead automation workflow mapping traffic through qualification to booking" loading="lazy" decoding="async" />
-      <div class="work-card-body">
-        <span class="work-cat">Automation</span>
-        <h3>Lead automation workflow</h3>
-        <p>Capture, qualification, follow-up, and booking wired into one flow with CRM integration.</p>
-        <p><button class="text-btn" data-open-case="automation">Open case study</button></p>
+
+    <article class="style-row flip">
+      <div class="style-text">
+        <p class="style-no">02</p>
+        <h3>Fine Line</h3>
+        <p class="style-desc">Precise, light linework with careful spacing. Suited to delicate concepts, illustrative ideas, and smaller placements that still need clarity up close.</p>
+        <p class="style-meta">Best for: forearms, calves, shoulders, illustrative detail</p>
+        <a href="#portfolio" class="text-link" data-filter-link="fine-line">See fine line work</a>
       </div>
+      <figure class="style-fig">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/ramen-bowl.jpg" alt="Fine line tattoo of a ramen bowl with characters peeking from the noodles on a calf" loading="lazy" decoding="async" />
+        <figcaption>Calf piece · Illustrative fine line</figcaption>
+      </figure>
+    </article>
+
+    <article class="style-row">
+      <div class="style-text">
+        <p class="style-no">03</p>
+        <h3>Custom Pieces</h3>
+        <p class="style-desc">One of one designs drawn from your references and direction. Composition, scale, and flow are planned for your specific placement rather than adapted from existing flash.</p>
+        <p class="style-meta">Best for: clients with a clear idea or a rough direction</p>
+        <a href="#consultation" class="text-link">Start your custom piece</a>
+      </div>
+      <figure class="style-fig">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/cat-outline.jpg" alt="Minimal fine line outline of a resting cat with lettering on a forearm" loading="lazy" decoding="async" />
+        <figcaption>Forearm piece · Custom line concept</figcaption>
+      </figure>
+    </article>
+
+    <article class="style-row flip">
+      <div class="style-text">
+        <p class="style-no">04</p>
+        <h3>Meaningful Designs</h3>
+        <p class="style-desc">Lettering, symbols, and imagery tied to a personal story. Dave helps translate the meaning into a visual form that reads clearly and stays legible over time.</p>
+        <p class="style-meta">Best for: memorials, statements, script paired with imagery</p>
+        <a href="#consultation" class="text-link">Share the meaning behind your idea</a>
+      </div>
+      <figure class="style-fig">
+        <div class="skeleton" aria-hidden="true"></div>
+        <img src="assets/tattoos/script-forearm.jpg" alt="Forearm tattoo with script reading Different Not Less inside an enso style circle with flame accents" loading="lazy" decoding="async" />
+        <figcaption>Forearm piece · Script with symbolic framing</figcaption>
+      </figure>
     </article>
   </div>
 </section>
 
-<!-- APPROACH -->
-<section class="section section-band" id="approach">
+<!-- PORTFOLIO -->
+<section class="section section-band" id="portfolio" aria-labelledby="portfolio-title">
   <div class="wrap">
-    <p class="kicker">04 / My approach</p>
-    <h2 class="section-title">Good work starts with understanding the problem.</h2>
-    <p class="section-lead">I learn the business first, then build the smallest system that solves the real bottleneck. Three principles guide every build.</p>
-    <div class="principles">
-      <div class="principle reveal">
-        <h3>Clarity</h3>
-        <p>Understand before building.</p>
+    <div class="section-head">
+      <div>
+        <p class="kicker">04 · Portfolio</p>
+        <h2 id="portfolio-title" class="section-title">The gallery.</h2>
+        <p class="section-lead">Real healed and fresh work. Select any image to view it larger. New pieces are added here as they are photographed.</p>
       </div>
-      <div class="principle reveal">
-        <h3>Intent</h3>
-        <p>Every element has a purpose.</p>
-      </div>
-      <div class="principle reveal">
-        <h3>Integrity</h3>
-        <p>Build something worth putting my name on.</p>
-      </div>
+      <p class="gallery-count" id="galleryCount" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="filter-bar" role="group" aria-label="Filter portfolio by style">
+      <button class="filter-btn is-active" data-filter="all" aria-pressed="true">All work</button>
+      <button class="filter-btn" data-filter="black-grey" aria-pressed="false">Black and Grey</button>
+      <button class="filter-btn" data-filter="fine-line" aria-pressed="false">Fine Line</button>
+      <button class="filter-btn" data-filter="custom" aria-pressed="false">Custom</button>
+      <button class="filter-btn" data-filter="meaningful" aria-pressed="false">Meaningful</button>
+    </div>
+
+    <div class="gallery" id="gallery" aria-label="Tattoo portfolio gallery"></div>
+
+    <div class="gallery-foot">
+      <p>Looking for something in a specific style or placement. Send references with your inquiry so the concept starts from real direction.</p>
+      <a href="#consultation" class="btn btn-dark">Request a Consultation</a>
     </div>
   </div>
 </section>
 
 <!-- PROCESS -->
-<section class="section wrap" id="process">
-  <p class="kicker">05 / Process</p>
-  <h2 class="section-title">A clear path from first call to launch.</h2>
-  <p class="section-lead">You always know what happens next and why.</p>
-  <ol class="steps">
-    <li class="step reveal">
-      <span class="step-no">01</span>
-      <h3>Discover</h3>
-      <p>Understand the business, goals, audience, current problems, and opportunities.</p>
-      <span class="step-arrow" aria-hidden="true">→</span>
+<section class="section wrap" id="process" aria-labelledby="process-title">
+  <p class="kicker">05 · The Custom Process</p>
+  <h2 id="process-title" class="section-title">From first idea to finished tattoo.</h2>
+  <p class="section-lead">A clear sequence. You always know what happens next, what Dave needs from you, and what you receive in return.</p>
+
+  <ol class="process-list">
+    <li>
+      <span class="p-no" aria-hidden="true">01</span>
+      <div>
+        <h3>Share your idea</h3>
+        <p>Send the concept in your own words, plus any references, photos, or sketches. Rough is fine. A sentence about what it means helps more than a perfect image.</p>
+        <p class="p-need"><span>You provide:</span> idea, meaning, reference images if you have them</p>
+      </div>
     </li>
-    <li class="step reveal">
-      <span class="step-no">02</span>
-      <h3>Strategy</h3>
-      <p>Define the right direction, structure, user experience, SEO approach, and automation strategy.</p>
-      <span class="step-arrow" aria-hidden="true">→</span>
+    <li>
+      <span class="p-no" aria-hidden="true">02</span>
+      <div>
+        <h3>Discuss meaning, style, placement and size</h3>
+        <p>A direct conversation about what the tattoo represents, the style direction, where it will sit on the body, and the approximate size. Placement and scale shape the design from the start.</p>
+        <p class="p-need"><span>You provide:</span> preferred style, placement, approximate size</p>
+      </div>
     </li>
-    <li class="step reveal">
-      <span class="step-no">03</span>
-      <h3>Build</h3>
-      <p>Design and develop the solution with attention to detail, performance, usability, and quality.</p>
-      <span class="step-arrow" aria-hidden="true">→</span>
+    <li>
+      <span class="p-no" aria-hidden="true">03</span>
+      <div>
+        <h3>Develop the custom concept</h3>
+        <p>Dave draws the custom direction from the consultation notes. Composition, linework, and shading are planned for your body and for clean healing.</p>
+        <p class="p-need"><span>You receive:</span> a custom concept based on your consultation</p>
+      </div>
     </li>
-    <li class="step reveal">
-      <span class="step-no">04</span>
-      <h3>Optimize</h3>
-      <p>Test, refine, improve the experience, strengthen SEO, and make sure the systems work properly.</p>
-      <span class="step-arrow" aria-hidden="true">→</span>
+    <li>
+      <span class="p-no" aria-hidden="true">04</span>
+      <div>
+        <h3>Finalize the direction</h3>
+        <p>You review the concept together, refine placement and scale, and confirm the final direction before anything is scheduled for skin.</p>
+        <p class="p-need"><span>You receive:</span> confirmed design direction and session plan</p>
+      </div>
     </li>
-    <li class="step reveal">
-      <span class="step-no">05</span>
-      <h3>Launch</h3>
-      <p>Deliver the finished solution, make final adjustments, and ensure everything is ready to perform in the real world.</p>
-      <span class="step-arrow last" aria-hidden="true">●</span>
+    <li>
+      <span class="p-no" aria-hidden="true">05</span>
+      <div>
+        <h3>Book the tattoo session</h3>
+        <p>Once the direction is agreed, the session is scheduled. Aftercare guidance is covered so the piece settles and heals as intended.</p>
+        <p class="p-need"><span>You receive:</span> session date and aftercare guidance</p>
+      </div>
     </li>
   </ol>
-  <p class="steps-caption">Start → Progress → Build → Refine → Launch</p>
 </section>
 
-<!-- TOOLS -->
-<section class="section section-band" id="tools">
-  <div class="wrap">
-    <p class="kicker">06 / Tools</p>
-    <h2 class="section-title">A practical stack, grouped by job.</h2>
-    <p class="section-lead">Only what I genuinely use on client work. No logo wall.</p>
-    <div class="tool-groups">
-      <div class="tool-group">
-        <h3>Web</h3>
-        <ul><li>Semantic HTML and CSS</li><li>Modern JavaScript</li><li>CMS builds</li><li>Performance tuning</li></ul>
+<!-- CONSULTATION -->
+<section class="section section-band" id="consultation" aria-labelledby="consult-title">
+  <div class="wrap consult-grid">
+    <div class="consult-info">
+      <p class="kicker">06 · Consultation</p>
+      <h2 id="consult-title" class="section-title">Start with a conversation.</h2>
+      <p class="section-lead">Fill in what you know. Leave blank what you do not know yet. Dave reads every inquiry and replies personally.</p>
+      <div class="consult-points">
+        <div><span class="cp-no">1</span><p>Describe the idea and what it means to you.</p></div>
+        <div><span class="cp-no">2</span><p>Add style, placement, and size if you have a preference.</p></div>
+        <div><span class="cp-no">3</span><p>Attach references. They guide the custom concept.</p></div>
       </div>
-      <div class="tool-group">
-        <h3>SEO</h3>
-        <ul><li>Technical audits</li><li>On-page structure</li><li>Local search setup</li><li>Search Console and analytics</li></ul>
-      </div>
-      <div class="tool-group">
-        <h3>Automation</h3>
-        <ul><li>Lead capture forms</li><li>Follow-up sequences</li><li>Booking flows</li><li>CRM pipelines</li></ul>
-      </div>
-      <div class="tool-group">
-        <h3>AI</h3>
-        <ul><li>Voice and calling agents</li><li>Lead qualification</li><li>Response drafting</li></ul>
-      </div>
-      <div class="tool-group">
-        <h3>Integrations</h3>
-        <ul><li>Website to CRM</li><li>Email and SMS</li><li>Calendars</li><li>Webhooks and APIs</li></ul>
+      <div class="consult-contact">
+        <p class="cc-label">Prefer direct contact</p>
+        <p class="cc-line"><span>Email</span><a href="mailto:booking@davemarktattoo.com">booking@davemarktattoo.com</a></p>
+        <p class="cc-note">Replace with real address when confirmed. Phone, studio address, and social links appear here once supplied.</p>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- ABOUT -->
-<section class="section wrap" id="about">
-  <div class="about-grid">
-    <div class="about-photo">
-      <figure class="portrait-frame small">
-        <img src="assets/alvin-portrait.jpg" alt="Alvin Henry Priel" loading="lazy" decoding="async" onerror="this.classList.add('img-missing');this.removeAttribute('src')" />
-        <div class="portrait-fallback" aria-hidden="true">
-          <span class="pf-initials">AHP</span>
-          <span class="pf-note">Portrait: <code>assets/alvin-portrait.jpg</code></span>
+    <form class="consult-form" id="consultForm" novalidate aria-describedby="formIntro">
+      <p id="formIntro" class="form-intro">Consultation inquiry. All fields marked with an asterisk are required.</p>
+      <div id="formFields">
+        <div class="field-row">
+          <div class="field">
+            <label for="cName">Name *</label>
+            <input id="cName" name="name" type="text" autocomplete="name" placeholder="Your full name" required aria-describedby="cNameErr" />
+            <span class="error-msg" id="cNameErr">Please enter your name.</span>
+          </div>
+          <div class="field">
+            <label for="cEmail">Email *</label>
+            <input id="cEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required aria-describedby="cEmailErr" />
+            <span class="error-msg" id="cEmailErr">Please enter a valid email address.</span>
+          </div>
         </div>
-      </figure>
-    </div>
-    <div class="about-copy">
-      <p class="kicker">07 / About</p>
-      <h2 class="section-title">Alvin Henry Priel</h2>
-      <blockquote class="about-quote">I build digital systems with intention and integrity, focused on detail and reliable results, work I am proud to put my name on.</blockquote>
-      <p class="about-text">I am a Digital Growth Partner and Systems Builder working across websites, SEO, and automation. My focus is practical: understand the bottleneck, build the system that removes it, and leave the business measurably easier to run.</p>
-      <div class="about-points">
-        <span>Custom builds</span>
-        <span>SEO from day one</span>
-        <span>Automation that saves hours</span>
+        <div class="field">
+          <label for="cPhone">Phone <span class="optional">(optional)</span></label>
+          <input id="cPhone" name="phone" type="tel" autocomplete="tel" placeholder="Best number to reach you" />
+        </div>
+        <div class="field">
+          <label for="cIdea">Tattoo idea *</label>
+          <textarea id="cIdea" name="idea" rows="4" placeholder="What do you want tattooed. Describe it in your own words." required aria-describedby="cIdeaErr"></textarea>
+          <span class="error-msg" id="cIdeaErr">Please describe your tattoo idea in a few words.</span>
+        </div>
+        <div class="field">
+          <label for="cMeaning">Meaning or inspiration <span class="optional">(optional)</span></label>
+          <textarea id="cMeaning" name="meaning" rows="3" placeholder="What does this piece represent. Any story Dave should know."></textarea>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="cStyle">Preferred style <span class="optional">(optional)</span></label>
+            <select id="cStyle" name="style">
+              <option value="" selected>Select if you know</option>
+              <option>Black and Grey</option>
+              <option>Fine Line</option>
+              <option>Custom Piece</option>
+              <option>Meaningful or Script</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cPlacement">Placement <span class="optional">(optional)</span></label>
+            <select id="cPlacement" name="placement">
+              <option value="" selected>Select if you know</option>
+              <option>Arm</option>
+              <option>Forearm</option>
+              <option>Leg</option>
+              <option>Back</option>
+              <option>Chest</option>
+              <option>Other or not sure</option>
+            </select>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="cSize">Approximate size <span class="optional">(optional)</span></label>
+            <input id="cSize" name="size" type="text" placeholder="For example: palm size, half sleeve" />
+          </div>
+          <div class="field">
+            <label for="cDate">Preferred date <span class="optional">(optional)</span></label>
+            <input id="cDate" name="date" type="text" placeholder="For example: next month, flexible" />
+          </div>
+        </div>
+        <div class="field">
+          <label for="cRefs">Reference images <span class="optional">(optional)</span></label>
+          <input id="cRefs" name="references" type="file" accept="image/*" multiple aria-describedby="cRefsHint" />
+          <span class="field-hint" id="cRefsHint">Attach images that show your direction. Files stay on your device until a submission method is connected.</span>
+          <ul class="file-list" id="fileList" aria-live="polite"></ul>
+        </div>
+        <div class="field">
+          <label for="cNotes">Additional information <span class="optional">(optional)</span></label>
+          <textarea id="cNotes" name="notes" rows="3" placeholder="Anything else: cover up needs, skin notes, timing, questions."></textarea>
+        </div>
+        <div class="consent">
+          <input id="cConsent" name="consent" type="checkbox" required aria-describedby="cConsentErr" />
+          <label for="cConsent">I agree that my inquiry details can be used to reply about this consultation. *</label>
+          <span class="error-msg" id="cConsentErr">Please confirm consent so the inquiry can be reviewed.</span>
+        </div>
+        <p class="privacy-note">Inquiries are used only to arrange a consultation. Details are never sold or shared for marketing. See the <a href="privacy.html">Privacy Policy</a>.</p>
+        <button type="submit" class="btn btn-light btn-full" id="submitBtn">Submit Consultation Inquiry</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="section section-band" id="testimonials">
-  <div class="wrap narrow">
-    <p class="kicker">08 / Testimonials</p>
-    <h2 class="section-title">Word of mouth, when it is earned.</h2>
-    <p class="section-lead">Client feedback appears here only with permission. References are available on request.</p>
-    <div class="quotes-empty">
-      <p><strong>No filler quotes.</strong></p>
-      <p>If we have worked together and you would like to leave a few words, send them through the contact form.</p>
-    </div>
-  </div>
-</section>
-
-<!-- EXPLORING -->
-<section class="section wrap" id="exploring">
-  <div class="wrap narrow" style="padding:0">
-    <p class="kicker">09 / Currently exploring</p>
-    <h2 class="section-title">What I am learning now.</h2>
-    <ul class="explore-list">
-      <li><span class="n">a.</span> AI-powered voice systems for small business front desks</li>
-      <li><span class="n">b.</span> Tighter loops between search content and booked calls</li>
-      <li><span class="n">c.</span> Lighter, faster builds that rank without bloat</li>
-    </ul>
-  </div>
-</section>
-
-<!-- FINAL CTA -->
-<section class="section wrap">
-  <div class="final-cta reveal">
-    <p class="kicker light">Next step</p>
-    <h2>Let's build something that moves your business forward.</h2>
-    <p>Tell me where you are and where you want to be. I will tell you honestly what I would build, and what I would skip.</p>
-    <div class="hero-ctas center">
-      <a href="#contact" class="btn btn-accent">Book a Project</a>
-      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
-    </div>
+      <div class="form-success" id="formSuccess" hidden tabindex="-1">
+        <p class="fs-title">Inquiry received.</p>
+        <p>Thank you. Your details have been prepared for review. Dave replies personally, so allow time for a considered response.</p>
+        <p class="fs-sub" id="successDetail"></p>
+        <p class="fs-note">This is an inquiry, not a confirmed booking. A session date is set only after the concept is discussed and confirmed.</p>
+        <button type="button" class="btn btn-outline" id="newInquiryBtn">Send another inquiry</button>
+      </div>
+    </form>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section class="section wrap" id="contact">
+<section class="section wrap" id="contact" aria-labelledby="contact-title">
   <div class="contact-grid">
-    <div class="contact-info">
-      <p class="kicker">10 / Contact</p>
-      <h2 class="section-title">Start a project.</h2>
-      <p class="section-lead">A short form. I reply personally, usually within one to two business days.</p>
-      <ul class="contact-lines">
-        <li><strong>Email</strong><a href="mailto:hello@alvinhenrypriel.com">hello@alvinhenrypriel.com</a></li>
-        <li><strong>Location</strong><span>Working worldwide, remote first</span></li>
-        <li><strong>Socials</strong><span class="socials"><a href="#" aria-label="LinkedIn">LinkedIn</a> · <a href="#" aria-label="X">X</a> · <a href="#" aria-label="Instagram">Instagram</a> · <a href="#" aria-label="GitHub">GitHub</a></span></li>
-      </ul>
+    <div>
+      <p class="kicker">07 · Contact</p>
+      <h2 id="contact-title" class="section-title">Direct lines.</h2>
+      <p class="section-lead">For press, guest spots, or follow ups on an existing inquiry. New tattoos start through the consultation form above.</p>
     </div>
-    <form class="contact-form" id="contactForm" novalidate>
-      <div class="field-row">
-        <div class="field">
-          <label for="fName">Name</label>
-          <input id="fName" name="name" type="text" placeholder="Your name" required autocomplete="name" aria-describedby="fNameErr" />
-          <span class="error-msg" id="fNameErr">Please enter your name.</span>
-        </div>
-        <div class="field">
-          <label for="fEmail">Email</label>
-          <input id="fEmail" name="email" type="email" placeholder="you@company.com" required autocomplete="email" aria-describedby="fEmailErr" />
-          <span class="error-msg" id="fEmailErr">Please enter a valid email address.</span>
-        </div>
-      </div>
-      <div class="field">
-        <label for="fType">Project Type</label>
-        <select id="fType" name="type" required aria-describedby="fTypeErr">
-          <option value="" disabled selected>Select one</option>
-          <option>Website</option>
-          <option>SEO</option>
-          <option>Automation</option>
-          <option>Website and SEO</option>
-          <option>Full system (all three)</option>
-          <option>Something else</option>
-        </select>
-        <span class="error-msg" id="fTypeErr">Please choose a project type.</span>
-      </div>
-      <div class="field">
-        <label for="fMsg">Message</label>
-        <textarea id="fMsg" name="message" rows="5" placeholder="What are you trying to build or fix?" required aria-describedby="fMsgErr"></textarea>
-        <span class="error-msg" id="fMsgErr">Please add a few words about your project.</span>
-      </div>
-      <button type="submit" class="btn btn-dark btn-full">Start a Project</button>
-      <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
-    </form>
+    <ul class="contact-lines">
+      <li><span class="cl-label">Email</span><a href="mailto:booking@davemarktattoo.com">booking@davemarktattoo.com</a><span class="cl-hint">Placeholder. Replace with confirmed address.</span></li>
+      <li><span class="cl-label">Studio</span><span>Address added here once confirmed.</span></li>
+      <li><span class="cl-label">Social</span><span>Instagram and other links added here once supplied.</span></li>
+    </ul>
   </div>
 </section>
+
 </main>
 
 <footer class="footer">
   <div class="wrap footer-inner">
     <div class="foot-brand">
-      <p class="foot-logo"><img src="assets/logo-mark.svg" alt="Alvin Henry Priel logo" width="40" height="28" /><span>Alvin Henry Priel</span></p>
-      <p class="foot-sub">Websites · SEO · Automation</p>
+      <p class="foot-name">DAVE MARK</p>
+      <p class="foot-sub">Tattoo Artist · Custom Tattoos</p>
+      <p class="foot-small">Black and grey · Fine line · Meaningful custom work</p>
     </div>
     <nav class="foot-nav" aria-label="Footer">
-      <a href="#home">Home</a>
       <a href="#work">Work</a>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#artist">Artist</a>
+      <a href="#styles">Styles</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#consultation">Consultation</a>
     </nav>
     <div class="foot-right">
-      <a href="#contact" class="btn btn-ghost btn-sm">Book a Project</a>
+      <a href="#consultation" class="btn btn-outline btn-sm">Request a Consultation</a>
       <div class="foot-legal">
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
       </div>
-      <p class="foot-small">© <span id="year">2026</span> Alvin Henry Priel. All rights reserved.</p>
+      <p class="foot-small">© <span id="year">2026</span> Dave Mark. All rights reserved. Artwork shown is the property of the artist and clients.</p>
     </div>
   </div>
 </footer>
 
-<!-- Case study modal -->
-<div class="modal" id="caseModal" hidden role="dialog" aria-modal="true" aria-labelledby="caseTitle">
-  <div class="modal-backdrop" data-close-case></div>
-  <div class="modal-card">
-    <button class="modal-close" data-close-case aria-label="Close case study">✕</button>
-    <p class="kicker" id="caseKicker">Case study</p>
-    <h3 id="caseTitle">Project</h3>
-    <ul class="case-list" id="caseList"></ul>
-    <p class="modal-note">Details beyond this summary are available on a call.</p>
-    <a href="#contact" class="btn btn-dark btn-sm" data-close-case>Discuss your project</a>
-  </div>
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-labelledby="lbCaption">
+  <div class="lb-backdrop" data-lb-close></div>
+  <figure class="lb-card">
+    <button class="lb-close" data-lb-close aria-label="Close image viewer">Close</button>
+    <img id="lbImg" src="" alt="" />
+    <figcaption id="lbCaption"></figcaption>
+    <div class="lb-nav">
+      <button id="lbPrev" aria-label="Previous image">Prev</button>
+      <span id="lbCount" aria-live="polite"></span>
+      <button id="lbNext" aria-label="Next image">Next</button>
+    </div>
+  </figure>
 </div>
 
+<script src="site.config.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
